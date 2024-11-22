@@ -6,13 +6,15 @@ function Navbar({ active }) {
       className="nav justify-content-center align-items-center"
       style={{
         position: "fixed",
-        backgroundColor: "azure",
+        backgroundColor: "white",
         right: "0",
         width: "400px",
         height: "80px",
         zIndex: "2",
         gap: "10px",
         borderBottomLeftRadius: "10px",
+        alignContent: "center",
+        justifyContent: "center",
       }}
     >
       <li className="nav-item">

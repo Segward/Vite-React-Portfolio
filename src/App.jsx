@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -8,32 +9,40 @@ function App() {
       style={{ paddingBottom: "10vh" }}
     >
       <Navbar />
-      <h1 style={{ paddingTop: "15vh" }}>Home Page</h1>
-
-      <Container style={{ paddingTop: "15vh" }}>
+      <Container style={{ width: "80%", paddingTop: "25vh" }}>
         <Row>
-          <Col>
-            <p>
-              Hei, jeg heter Gustav og studerer dataingeniør ved NTNU i
-              Trondheim. Jeg utvikler programvare og har erfaring med
-              programmeringsspråk som C, C++, Python, Java, Lua, Rust, Html, CSS
-              og JavaScript. I tillegg har jeg erfaring med
-              versjonskontrollsystemer som Git, GitLab og GitHub. Andre verktøy
-              jeg bruker er blant annet Ghidra, Ida Pro og Cheat Engine som jeg
-              bruker til reversering av programvare. På videregående hadde jeg
-              musikk, dans og drama med dans på Create Videregående skole på i
-              Lillehammer. Etter videregående hadde jeg et årstudium med forkurs
-              for ingeniørutdanninger. I fremtiden ønsker jeg å jobbe med
-              programvareutvikling innenfor området programvaresikkerhet.
-              Prosjekter jeg jobber på akkurat nå er minne manipulasjon av
-              eksterne prosesser ved bruk av mach og programmeringsspråket C på
-              MacOS. Jeg jobber også på en DLL (Dynamic Link Library) injektor
-              med C++ og Windows.h på Windows. Jeg planlegger å lage en dylib
-              injektor med C eller C++ for MacOS.
-            </p>
+          <Col md={8} style={{ padding: "20px", textAlign: "left" }}>
+            <h2>Hi, welcome to my portfolio</h2>
+            <Link
+              to="/about"
+              className="no-text-decoration hover-scale"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                backgroundColor: "white",
+                color: "black",
+                padding: "10px 20px",
+                borderRadius: "10px",
+                cursor: "pointer",
+                width: "fit-content",
+                marginTop: "20px",
+              }}
+            >
+              <span>Read more about me here</span>
+              <img
+                src="/Right.png"
+                style={{ marginLeft: "10px", width: "20px", height: "20px" }}
+              />
+            </Link>
           </Col>
-          <Col>
-            <img src="/Github.png"></img>
+          <Col
+            md={4}
+            className="d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="/Selfie.png"
+              style={{ width: "100%", maxWidth: "300px", borderRadius: "10px", border: "1px solid white", backgroundColor: "white" }}
+            />
           </Col>
         </Row>
       </Container>

@@ -35,6 +35,6 @@ body {
   object-fit: cover;
 }
 
-.card-hover-scale:hover {
+.hover-scale:hover {
   transform: scale(1.05);
 }
