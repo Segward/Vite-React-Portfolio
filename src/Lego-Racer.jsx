@@ -18,7 +18,7 @@ function LegoRacer() {
       >
         <h3>Lego Racer Teambased Collaberation</h3>
         <h4>About the project</h4>
-        <p style={{ fontSize: "1rem" }}>
+        <p style={{ fontSize: "1.5vw" }}>
           In the course IDATT1004 we got assigned a project where we had to
           build and program a lego robot. This project was done in groups and we
           had to use the Lego Mindstorm kit, Python, Pybricks and GitLab. NTNU
@@ -34,7 +34,7 @@ function LegoRacer() {
           because the opponent robot deployed a trap on the track.
         </p>
         <h4>Learnings & Soft Skills</h4>
-        <p style={{ fontSize: "1rem" }}>
+        <p style={{ fontSize: "1.5vw" }}>
           Through this project we learned to use version control systems like
           GitLab, and how to work in a group. We also learned about the
           importance of git and how to use it properly. Furthermore, we learned
