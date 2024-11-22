@@ -22,7 +22,23 @@ function Projects() {
               className="d-flex flex-column align-items-center"
               style={{ height: "100px" }}
             >
-              <Card.Title>Project</Card.Title>
+              <Card.Title>Project 1</Card.Title>
+              <Card.Text>This is the project text</Card.Text>
+            </Card.Body>
+          </Card>
+        </Link>
+        <Link to={"/"} className="no-text-decoration">
+          <Card className="bg-dark text-white card-hover-scale">
+            <Card.Img
+              variant="top"
+              src={"../images/Github.png"}
+              className="fixed-size"
+            />
+            <Card.Body
+              className="d-flex flex-column align-items-center"
+              style={{ height: "100px" }}
+            >
+              <Card.Title>Project 2</Card.Title>
               <Card.Text>This is the project text</Card.Text>
             </Card.Body>
           </Card>
