@@ -15,15 +15,15 @@ function Projects() {
           <Card className="bg-dark text-white card-hover-scale">
             <Card.Img
               variant="top"
-              src={"/Github.png"}
+              src={"/LegoRobot.png"}
               className="fixed-size"
             />
             <Card.Body
               className="d-flex flex-column align-items-center"
-              style={{ height: "100px" }}
+              style={{ height: "200px" }}
             >
-              <Card.Title>Project 1</Card.Title>
-              <Card.Text>This is the project text</Card.Text>
+              <Card.Title>Semester Project IDATT1004</Card.Title>
+              <Card.Text>We made a lego alarmclock with EV3 mindstorm kit and micro python.</Card.Text>
             </Card.Body>
           </Card>
         </Link>
@@ -36,10 +36,10 @@ function Projects() {
             />
             <Card.Body
               className="d-flex flex-column align-items-center"
-              style={{ height: "100px" }}
+              style={{ height: "200px" }}
             >
-              <Card.Title>Project 2</Card.Title>
-              <Card.Text>This is the project text</Card.Text>
+              <Card.Title>Folder Assignment IDATT1003</Card.Title>
+              <Card.Text>I made a grocery and foodstorage program with registers in a java maven project.</Card.Text>
             </Card.Body>
           </Card>
         </Link>
