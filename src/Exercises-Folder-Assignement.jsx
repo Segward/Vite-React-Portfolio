@@ -16,19 +16,59 @@ function ExercisesFolderAssignment() {
           paddingTop: "25vh",
         }}
       >
-        <h3>Lego Alarm Clock Teambased Collaberation</h3>
-        <p className="fs-5">
-          Hi, my name is Gustav and I am a computer engineering student at NTNU
-          in Trondheim. I develop software and have experience with programming
-          languages such as C, C++, Python, Java and more. Also, I have
-          experience with version control systems like Git, GitLab and GitHub.
-          Other tools I use are Ghidra, Ida Pro and Cheat Engine which I use for
-          reverse engineering. In the future I want to work with software
-          development, preferably in the field of software security.
+        <h3>Exercises & Folder Assignment Programming 1</h3>
+        <h4>About the exercises</h4>
+        <p style={{ fontSize: "1rem" }}>
+          We got assigned 11 exercises which introduced us to the basics of
+          programming in Java. These gradually increased in difficulty and
+          complexity.
         </p>
         <Link
+          to="https://github.com/Segward/Exercises-IDATT1003"
+          className="no-text-decoration hover-scale mb-5"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            backgroundColor: "white",
+            color: "black",
+            padding: "10px 20px",
+            borderRadius: "10px",
+            cursor: "pointer",
+            width: "fit-content",
+            marginTop: "20px",
+          }}
+        >
+          <span>Source code</span>
+        </Link>
+        <h4>Folder Assignment</h4>
+        <p style={{ fontSize: "1rem" }}>
+          The folder assignment was about making a grocery storage system where
+          you could register, remove, list groceries and more. We also had to
+          implement recipies and cooking books. The enduser should be able to
+          check what they had in storage and what they could make with the
+          ingredients they had. The project was made in Java with a maven
+          project structure. We also had to make full test coverage with Junit.
+        </p>
+        <Link
+          to="https://github.com/NTNU-IDI/idatt1003-mappe-2024-Segward"
+          className="no-text-decoration hover-scale mb-5"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            backgroundColor: "white",
+            color: "black",
+            padding: "10px 20px",
+            borderRadius: "10px",
+            cursor: "pointer",
+            width: "fit-content",
+            marginTop: "20px",
+          }}
+        >
+          <span>Source code</span>
+        </Link>
+        <Link
           to="/projects"
-          className="no-text-decoration hover-scale"
+          className="no-text-decoration hover-scale mb-5"
           style={{
             display: "flex",
             alignItems: "center",

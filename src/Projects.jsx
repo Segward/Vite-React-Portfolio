@@ -73,7 +73,7 @@ function Projects() {
               style={{ height: "150px" }}
             >
               <Card.Title>
-                Exercises and Folder Assignment Programming 1
+                Exercises & Folder Assignment Programming 1
               </Card.Title>
               <Card.Text>
                 In Programming 1 we used java to do 11 exercises and 1 folder

@@ -18,7 +18,7 @@ function About() {
         }}
       >
         <h3>I'm Gustav Skyberg</h3>
-        <p className="fs-5">
+        <p style={{ fontSize: "1rem" }}>
           I am a computer engineering student at NTNU in Trondheim. I develop
           software and have experience with programming languages such as C,
           C++, Python, Java and more. Also, I have experience with version
@@ -27,7 +27,7 @@ function About() {
           In the future I want to work with software development, preferably in
           the field of software security.
         </p>
-        <h4 className="mt-5">These are technologies I know and use</h4>
+        <h4 className="mt-5">These are technologies I use</h4>
         <Container style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
           <img src="/C.png" style={{ width: "50px", height: "50px" }} />
           <img src="/C++.png" style={{ width: "50px", height: "50px" }} />
