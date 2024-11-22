@@ -18,7 +18,7 @@ function About() {
         }}
       >
         <h3>I'm Gustav Skyberg</h3>
-        <p style={{ fontSize: "1.5vw" }}>
+        <p style={{ fontSize: "1.2vw" }}>
           I am a computer engineering student at NTNU in Trondheim. I develop
           software and have experience with programming languages such as C,
           C++, Python, Java and more. Also, I have experience with version
