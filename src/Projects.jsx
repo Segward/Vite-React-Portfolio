@@ -15,7 +15,7 @@ function Projects() {
           <Card className="bg-dark text-white card-hover-scale">
             <Card.Img
               variant="top"
-              src={"../images/Github.png"}
+              src={"/Github.png"}
               className="fixed-size"
             />
             <Card.Body
@@ -31,7 +31,7 @@ function Projects() {
           <Card className="bg-dark text-white card-hover-scale">
             <Card.Img
               variant="top"
-              src={"../images/Github.png"}
+              src={"/Github.png"}
               className="fixed-size"
             />
             <Card.Body
