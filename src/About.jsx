@@ -33,9 +33,9 @@ function About() {
             </Col>
             <Col md={6} className="d-flex justify-content-center align-items-center">
               <img
-                src="/Park.png"
+                src="/Selfie2.png"
                 className="rounded"
-                style={{ width: "100%", maxWidth: "500px", height: "auto" }}
+                style={{ width: "80%", maxWidth: "500px", height: "auto" }}
               />
             </Col>
           </Row>

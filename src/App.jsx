@@ -40,7 +40,7 @@ function App() {
             className="d-flex justify-content-center align-items-center"
           >
             <img
-              src="/Selfie.png"
+              src="/Selfie1.png"
               style={{
                 width: "100%",
                 maxWidth: "300px",
