@@ -16,9 +16,9 @@ function ExercisesFolderAssignment() {
           paddingTop: "25vh",
         }}
       >
-        <h3>Exercises & Folder Assignment Programming 1</h3>
-        <h4>About the exercises</h4>
-        <p style={{ fontSize: "1.2vw" }}>
+        <h2>Exercises & Folder Assignment Programming 1</h2>
+        <h3 className="mt-4">About the exercises</h3>
+        <p style={{ fontSize: "1.1rem" }}>
           We got assigned 11 exercises which introduced us to the basics of
           programming in Java. These gradually increased in difficulty and
           complexity.
@@ -40,8 +40,8 @@ function ExercisesFolderAssignment() {
         >
           <span>Source code</span>
         </Link>
-        <h4>Folder Assignment</h4>
-        <p style={{ fontSize: "1.2vw" }}>
+        <h3 className="mt-2">Folder Assignment</h3>
+        <p style={{ fontSize: "1.1rem" }}>
           The folder assignment was about making a grocery storage system where
           you could register, remove, list groceries and more. We also had to
           implement recipies and cooking books. The enduser should be able to

@@ -16,9 +16,9 @@ function LegoAlarmClock() {
           paddingTop: "25vh",
         }}
       >
-        <h3>Lego Alarm Clock Teambased Collaberation</h3>
-        <h4>About the project</h4>
-        <p style={{ fontSize: "1.2vw" }}>
+        <h2>Lego Alarm Clock Teambased Collaberation</h2>
+        <h3 className="mt-4">About the project</h3>
+        <p style={{ fontSize: "1.1rem" }}>
           In the course teambased collaberation (IDATT1004) each group got
           assigned a final project. In this final project we had to utilize what
           we previously had learned from the course. The project was about
@@ -27,8 +27,8 @@ function LegoAlarmClock() {
           python with the goal of making it easier for people to wake up in the
           morning.
         </p>
-        <h4>Process</h4>
-        <p style={{ fontSize: "1.2vw" }}>
+        <h3 className="mt-4">Process</h3>
+        <p style={{ fontSize: "1.1rem" }}>
           We developed an alarm clock with intentionally irritating features
           designed to ensure users wake up in the morning. Initially, we
           implemented the project using Java on the EV3dev robot, utilizing the
@@ -48,8 +48,8 @@ function LegoAlarmClock() {
           low and insufficient time to implement a multiple-choice math question
           system, we were ultimately satisfied with the final outcome.
         </p>
-        <h4>Learnings & Soft Skills</h4>
-        <p style={{ fontSize: "1.2vw" }}>
+        <h3 className="mt-4">Learnings & Soft Skills</h3>
+        <p style={{ fontSize: "1.1rem" }}>
           Throughout the project, we learned the importance of structured
           working groups, clear organization, and effective workload delegation.
           Both formal and informal meetings, such as standups, helped us track
@@ -84,7 +84,7 @@ function LegoAlarmClock() {
           <source src="/LegoAlarmClock.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <p style={{ fontSize: "1.2vw" }}></p>
+        <p style={{ fontSize: "1.1rem" }}></p>
         <Link
           to="/projects"
           className="no-text-decoration hover-scale mb-5"

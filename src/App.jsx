@@ -12,7 +12,7 @@ function App() {
       <Container style={{ width: "80%", paddingTop: "25vh" }}>
         <Row>
           <Col md={8} style={{ padding: "20px", textAlign: "left" }}>
-            <h2>Hi, welcome to my portfolio</h2>
+            <h1>Hi, welcome to my portfolio</h1>
             <Link
               to="/about"
               className="no-text-decoration hover-scale"
@@ -41,7 +41,13 @@ function App() {
           >
             <img
               src="/Selfie.png"
-              style={{ width: "100%", maxWidth: "300px", borderRadius: "10px", border: "1px solid white", backgroundColor: "white" }}
+              style={{
+                width: "100%",
+                maxWidth: "300px",
+                borderRadius: "10px",
+                border: "1px solid white",
+                backgroundColor: "white",
+              }}
             />
           </Col>
         </Row>

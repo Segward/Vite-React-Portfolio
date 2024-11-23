@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Container, Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import Navbar from "./Navbar";
 
 function Projects() {
@@ -17,7 +17,7 @@ function Projects() {
           paddingTop: "25vh",
         }}
       >
-        <h3>These are my projects</h3>
+        <h2>These are my projects</h2>
       </div>
       <Container className="projects-grid">
         <Link to={"/lego-alarm-clock"} className="no-text-decoration">
