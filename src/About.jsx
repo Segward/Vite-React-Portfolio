@@ -35,7 +35,7 @@ function About() {
               <img
                 src="/Selfie2.png"
                 className="rounded"
-                style={{ width: "80%", maxWidth: "500px", height: "auto" }}
+                style={{ width: "50%", maxWidth: "500px", height: "auto" }}
               />
             </Col>
           </Row>
@@ -75,7 +75,7 @@ function About() {
             borderRadius: "10px",
             cursor: "pointer",
             width: "fit-content",
-            marginTop: "20px",
+            marginTop: "5vh",
           }}
         >
           <span>Check out my projects here</span>
