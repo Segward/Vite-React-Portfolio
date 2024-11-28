@@ -45,25 +45,27 @@ function About() {
         <Container style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
           <img src="/C.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/C++.png" className="rounded" style={{ width: "60px", height: "60px" }} />
+          <img src="/Curl.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/Python.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/Java.png" className="rounded" style={{ width: "60px", height: "60px" }} />
+          <img src="/Maven.png" className="rounded" style={{ width: "60px", height: "60px" }} />
+          <img src="/Lua.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/JavaScript.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/HTML.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/CSS.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Lua.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/React.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Maven.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/GCC.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/OpenCV.png" className="rounded" style={{ width: "60px", height: "60px" }} />
+          <img src="/Node.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/Vite.png" className="rounded" style={{ width: "60px", height: "60px" }} />
+          <img src="/Shellscript.png" className="rounded" style={{ width: "60px", height: "60px" }} />
+          <img src="/Bat.png" className="rounded" style={{ width: "60px", height: "60px" }} />
+          <img src="/GCC.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/Git.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/Gitlab.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/Github2.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/Ghidra.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/IdaPro.png" className="rounded" style={{ width: "60px", height: "60px" }} />
           <img src="/CheatEngine.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Node.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Curl.png" className="rounded" style={{ width: "60px", height: "60px" }} />
         </Container>
         <Link
           to="/projects"
