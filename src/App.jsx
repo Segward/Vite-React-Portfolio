@@ -13,27 +13,50 @@ function App() {
         <Row>
           <Col md={8} style={{ padding: "20px", textAlign: "left" }}>
             <h1>Hi, welcome to my portfolio</h1>
-            <Link
-              to="/about"
-              className="no-text-decoration hover-scale"
-              style={{
-                display: "flex",
-                alignItems: "center",
-                backgroundColor: "white",
-                color: "black",
-                padding: "10px 20px",
-                borderRadius: "10px",
-                cursor: "pointer",
-                width: "fit-content",
-                marginTop: "20px",
-              }}
-            >
-              <span>Read more about me here</span>
-              <img
-                src="/Right.png"
-                style={{ marginLeft: "10px", width: "20px", height: "20px" }}
-              />
-            </Link>
+            <Container style={{ display: "flex", gap: "50px", flexWrap: "wrap" }}>
+              <Link
+                to="/about"
+                className="no-text-decoration hover-scale"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  backgroundColor: "white",
+                  color: "black",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                  cursor: "pointer",
+                  width: "fit-content",
+                  marginTop: "20px",
+                }}
+              >
+                <span>Read more about me here</span>
+                <img
+                  src="/Right.png"
+                  style={{ marginLeft: "10px", width: "20px", height: "20px" }}
+                />
+              </Link>
+              <Link
+                to="https://github.com/Segward"
+                className="no-text-decoration hover-scale"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  backgroundColor: "white",
+                  color: "black",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                  cursor: "pointer",
+                  width: "fit-content",
+                  marginTop: "20px",
+                }}
+              >
+                <span>Here are my repositories</span>
+                <img
+                  src="/Github2.png"
+                  style={{ marginLeft: "10px", width: "20px", height: "20px" }}
+                />
+              </Link>
+            </Container>
           </Col>
           <Col
             md={4}
