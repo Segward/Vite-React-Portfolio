@@ -13,7 +13,7 @@ function App() {
         <Row>
           <Col md={8} style={{ padding: "20px", textAlign: "left" }}>
             <h1>Hi, welcome to my portfolio</h1>
-            <Container style={{ display: "flex", gap: "50px", flexWrap: "wrap" }}>
+            <Container style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
               <Link
                 to="/about"
                 className="no-text-decoration hover-scale"
