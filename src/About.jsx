@@ -62,6 +62,8 @@ function About() {
           <img src="/Ghidra.png" className="rounded" style={{ width: "50px", height: "50px" }} />
           <img src="/IdaPro.png" className="rounded" style={{ width: "50px", height: "50px" }} />
           <img src="/CheatEngine.png" className="rounded" style={{ width: "50px", height: "50px" }} />
+          <img src="/Node.png" className="rounded" style={{ width: "50px", height: "50px" }} />
+          <img src="/Curl.png" className="rounded" style={{ width: "50px", height: "50px" }} />
         </Container>
         <Link
           to="/projects"
