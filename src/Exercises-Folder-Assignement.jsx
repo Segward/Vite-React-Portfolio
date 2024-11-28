@@ -46,7 +46,7 @@ function ExercisesFolderAssignment() {
         <h3 className="mt-2">
           Ecercise 1: variables, data types, and expressions
         </h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise focuses on variables, data types, and expressions. In
           the first task, you will write a program that converts inches to
           centimeters, with 1 inch equaling 2.54 cm. You must test the program
@@ -57,7 +57,7 @@ function ExercisesFolderAssignment() {
           equivalent in hours, minutes, and seconds using integer division.
         </p>
         <h3 className="mt-2">Ecercise 2: Control Structures</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise introduces control structures. The first task is to
           determine if a given year is a leap year, using an algorithm that
           checks divisibility by 4 and additional rules for century years. You
@@ -67,7 +67,7 @@ function ExercisesFolderAssignment() {
           determine which is cheaper based on their cost per gram.
         </p>
         <h3 className="mt-2">Ecercise 3: Loops</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise deals with loops. The first task is to write a program
           that prints a portion of the multiplication table, such as 13 to 15
           times tables, allowing the user to specify which part of the table to
@@ -76,7 +76,7 @@ function ExercisesFolderAssignment() {
           multiple numbers, using a loop structure to facilitate user input.
         </p>
         <h3 className="mt-2">Ecercise 4: OOP & Classes</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise explores object-oriented programming and classes. The
           first task requires creating a class Valuta with methods to convert
           between Norwegian kroner and other currencies. You will also write a
@@ -88,7 +88,7 @@ function ExercisesFolderAssignment() {
           gameplay and use the Random class for dice rolls.
         </p>
         <h3 className="mt-2">Ecercise 5: Classe as building blocks</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise teaches using classes as building blocks. The first task
           involves creating a class for fractions with methods for arithmetic
           operations like addition, subtraction, multiplication, and division.
@@ -100,7 +100,7 @@ function ExercisesFolderAssignment() {
           the required methods.
         </p>
         <h3 className="mt-2">Ecercise 6: Arrays and primitive data types</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise focuses on arrays of primitive data types. The first
           task involves creating a program to count the frequency of random
           numbers (0-9) generated 1000 times and storing the counts in an array.
@@ -115,7 +115,7 @@ function ExercisesFolderAssignment() {
           new matrix objects while ensuring immutability.
         </p>
         <h3 className="mt-2">Ecercise 7: Java API</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise explores the Java API. The first task involves creating
           a class NyString with methods for text manipulation, such as
           shortening a string by extracting the first letter of each word or
@@ -126,7 +126,7 @@ function ExercisesFolderAssignment() {
           and outputting the original or uppercase versions of the text.
         </p>
         <h3 className="mt-2">Ecercise 8: Object Collaboration</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise focuses on object collaboration. The task is to create a
           Person class with attributes for first name, last name, and birth
           year. A related ArbTaker class will manage employee records, including
@@ -137,7 +137,7 @@ function ExercisesFolderAssignment() {
           view and modify employee data.
         </p>
         <h3 className="mt-2">Ecercise 9: Arrays of objects</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise deals with arrays of objects. The task is to develop a
           Student class to track each student's name and the number of
           assignments completed. This data is then managed by an Oppgaveoversikt
@@ -147,7 +147,7 @@ function ExercisesFolderAssignment() {
           functionalities.
         </p>
         <h3 className="mt-2">Exercise 10: Array Lists</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exercise focuses on list-based arrays. The first task involves
           creating a system to manage event registrations. Each event will have
           attributes like name, location, organizer, type, and timestamp. The
@@ -161,7 +161,7 @@ function ExercisesFolderAssignment() {
           range.
         </p>
         <h3 className="mt-2">Exercise 11: Exam exercise</h3>
-        <p>
+        <p style={{ fontSize: "1.1rem" }}>
           This exam focuses on developing a property management system for
           Gloppen municipality, enabling the registration, display, and analysis
           of local properties. The application requires functionality to

@@ -27,11 +27,28 @@ function About() {
                 such as C, C++, Python, Java and more. Also, I have experience
                 with version control systems like Git, GitLab and GitHub. Other
                 tools I use are Ghidra, Ida Pro and Cheat Engine which I use for
-                reverse engineering. In the future I want to work with software
-                development, preferably in the field of software security.
+                reverse engineering.
+              </p>
+              <h3 className="mt-5">Future plans</h3>
+              <p style={{ fontSize: "1.1rem" }}>
+                I plan on taking a master's degree in computer technology or
+                cybersecurity. This will be done after I have finished my
+                bachelor's degree in computer engineering.
+              </p>
+
+              <h3 className="mt-5">What my dream job would be</h3>
+              <p style={{ fontSize: "1.1rem" }}>
+                I am interested in working with software development, reverse
+                engineering and cyber security. I have a passion for low level
+                programming and operating systems. Becuase of this a dream job
+                for me would be a job where I get to work close to the hardware
+                and operating system.
               </p>
             </Col>
-            <Col md={6} className="d-flex justify-content-center align-items-center">
+            <Col
+              md={6}
+              className="d-flex justify-content-center align-items-center"
+            >
               <img
                 src="/Selfie2.png"
                 className="rounded"
@@ -43,29 +60,121 @@ function About() {
 
         <h3 className="mt-5">These are technologies I use</h3>
         <Container style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-          <img src="/C.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/C++.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Curl.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Python.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Java.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Maven.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Lua.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/JavaScript.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/HTML.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/CSS.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/React.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/OpenCV.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Node.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Vite.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Shellscript.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Bat.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/GCC.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Git.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Gitlab.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Github2.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/Ghidra.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/IdaPro.png" className="rounded" style={{ width: "60px", height: "60px" }} />
-          <img src="/CheatEngine.png" className="rounded" style={{ width: "60px", height: "60px" }} />
+          <img
+            src="/C.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/C++.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Curl.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Python.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Java.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Maven.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Lua.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/JavaScript.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/HTML.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/CSS.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/React.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/OpenCV.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Node.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Vite.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Shellscript.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Bat.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/GCC.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Git.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Gitlab.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Github2.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Ghidra.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/IdaPro.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/CheatEngine.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
         </Container>
         <Link
           to="/projects"
