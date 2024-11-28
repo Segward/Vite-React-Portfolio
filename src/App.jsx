@@ -13,7 +13,13 @@ function App() {
         <Row>
           <Col md={8} style={{ padding: "20px", textAlign: "left" }}>
             <h1>Hi, welcome to my portfolio</h1>
-            <Container style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
+            <p style={{ fontSize: "1.1rem" }}>
+              In this portfolio you can read about me, my projects and some of
+              my interests.
+            </p>
+            <Container
+              style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}
+            >
               <Link
                 to="/about"
                 className="no-text-decoration hover-scale"
