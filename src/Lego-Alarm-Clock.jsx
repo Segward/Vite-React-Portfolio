@@ -79,7 +79,7 @@ function LegoAlarmClock() {
         >
           <span>Source code</span>
         </Link>
-        <h4>Video of the product</h4>
+        <h4 className="mt-4">About the project</h4>
         <video width="30%" controls>
           <source src="/LegoAlarmClock.mp4" type="video/mp4" />
           Your browser does not support the video tag.
