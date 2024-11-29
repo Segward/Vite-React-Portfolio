@@ -27,7 +27,10 @@ function About() {
                 such as C, C++, Python, Java and more. Also, I have experience
                 with version control systems like Git, GitLab and GitHub. Other
                 tools I use are Ghidra, Ida Pro and Cheat Engine which I use for
-                reverse engineering.
+                reverse engineering. My hobbies, other than programming, are
+                reading manga, manwha, manhua, watching anime, playing video
+                games and listening to music on my hifiman edition xs headset
+                with a topping l30ii and e30ii stack. Also, I love cats a lot!!!
               </p>
               <h3 className="mt-5">Future plans</h3>
               <p style={{ fontSize: "1.1rem" }}>
@@ -68,6 +71,7 @@ function About() {
           <img src="/HTML.png" style={{ width: "60px", height: "60px" }} />
           <img src="/CSS.png" style={{ width: "60px", height: "60px" }} />
           <img src="/React.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Bootstrap.png" style={{ width: "60px", height: "60px" }} />
           <img src="/Node.png" style={{ width: "60px", height: "60px" }} />
           <img src="/Vite.png" style={{ width: "60px", height: "60px" }} />
           <img src="/Express.png" style={{ width: "60px", height: "60px" }} />
