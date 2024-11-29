@@ -16,7 +16,7 @@ function LegoRacer() {
           paddingTop: "25vh",
         }}
       >
-        <h1 style={{fontSize: "3rem"}}>Lego Racer Teambased Collaberation</h1>
+        <h1 style={{fontSize: "2.5rem"}}>Lego Racer Teambased Collaberation</h1>
         <h3 className="mt-4">About the project</h3>
         <p style={{ fontSize: "1.1rem" }}>
           In the course IDATT1004 we got assigned a project where we had to

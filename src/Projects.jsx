@@ -17,7 +17,7 @@ function Projects() {
           paddingTop: "25vh",
         }}
       >
-        <h1 style={{fontSize: "3rem"}}>These are my projects</h1>
+        <h1 style={{fontSize: "2.5rem"}}>These are my projects</h1>
       </div>
       <Container className="projects-grid">
         <Link to={"/lego-alarm-clock"} className="no-text-decoration">
