@@ -57,124 +57,33 @@ function About() {
             </Col>
           </Row>
         </Container>
-
-        <h3 className="mt-5">These are technologies I use</h3>
+        <h3 className="mt-5">These are some of the technologies I use </h3>
         <Container style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-          <img
-            src="/C.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/C++.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Curl.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Python.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Java.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Maven.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Lua.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/JavaScript.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/HTML.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/CSS.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/React.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/OpenCV.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Node.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Vite.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Shellscript.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Bat.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/GCC.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Git.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Gitlab.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Github2.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/Ghidra.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/IdaPro.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
-          <img
-            src="/CheatEngine.png"
-            className="rounded"
-            style={{ width: "60px", height: "60px" }}
-          />
+          <img src="/C.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/C++.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Python.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Java.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Lua.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/JS.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/HTML.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/CSS.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/React.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Node.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Vite.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Express.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Curl.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/OpenCV.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Shell.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Bat.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Ghidra.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/IdaPro.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/CE.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/GCC.png" style={{ width: "60px", height: "60px" }} />
+        </Container>
+        <h3 className="mt-5">I use these operating systems</h3>
+        <Container style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+          <img src="/Windows.png" style={{ width: "60px", height: "60px" }} />
+          <img src="/Sonoma.png" style={{ width: "60px", height: "60px" }} />
         </Container>
         <Link
           to="/projects"
