@@ -8,9 +8,21 @@ body {
 }
 
 .nav-link:hover {
-  transform: rotate(5deg) scale(1.1);
+  animation: rotate 0.1s forwards;
   color: deeppink;
   text-shadow: 2px 2px 0 white;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) scale(1.0);
+  }
+  30% {
+    transform: rotate(3deg) scale(0.95);
+  }
+  100% {
+    transform: rotate(6deg) scale(1.08);
+  }
 }
 
 .no-text-decoration {
