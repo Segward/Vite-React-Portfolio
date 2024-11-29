@@ -44,7 +44,7 @@ function ExercisesFolderAssignment() {
           <span>Source code</span>
         </Link>
         <h3 className="mt-2">
-          Ecercise 1: variables, data types, and expressions
+          Ecercise 1: Variables, data types, and expressions
         </h3>
         <p style={{ fontSize: "1.1rem" }}>
           This exercise focuses on variables, data types, and expressions. In
@@ -87,7 +87,7 @@ function ExercisesFolderAssignment() {
           scores or requiring exact sums to win. The program must simulate
           gameplay and use the Random class for dice rolls.
         </p>
-        <h3 className="mt-2">Ecercise 5: Classe as building blocks</h3>
+        <h3 className="mt-2">Ecercise 5: Classes as building blocks</h3>
         <p style={{ fontSize: "1.1rem" }}>
           This exercise teaches using classes as building blocks. The first task
           involves creating a class for fractions with methods for arithmetic
