@@ -82,8 +82,16 @@ function About() {
         </Container>
         <h3 className="mt-5">I use these operating systems</h3>
         <Container style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-          <img src="/Windows.png" style={{ width: "60px", height: "60px" }} />
-          <img src="/Sonoma.png" style={{ width: "60px", height: "60px" }} />
+          <img
+            src="/Windows.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
+          <img
+            src="/Sonoma.png"
+            className="rounded"
+            style={{ width: "60px", height: "60px" }}
+          />
         </Container>
         <Link
           to="/projects"
