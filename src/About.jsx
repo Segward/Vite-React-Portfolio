@@ -20,7 +20,7 @@ function About() {
         <Container>
           <Row>
             <Col style={{ padding: "5px", textAlign: "left" }}>
-            <h1 style={{fontSize: "2.5rem"}}>I'm Gustav Skyberg</h1>
+              <h1 style={{ fontSize: "2.5rem" }}>I'm Gustav Skyberg</h1>
               <p style={{ fontSize: "1.1rem" }}>
                 I am a computer engineering student at NTNU in Trondheim. I
                 develop software and have experience with programming languages
@@ -30,7 +30,8 @@ function About() {
                 reverse engineering. My hobbies, other than programming, are
                 reading manga, manwha, manhua, watching anime, playing video
                 games and listening to music on my hifiman edition xs headset
-                with a topping l30ii and e30ii stack. Also, I love cats a lot!!!
+                with a topping l30ii and e30ii stack. Also, I love cats and I'm
+                queer 🏳️‍🌈!!!
               </p>
               <h3 className="mt-5">Future plans</h3>
               <p style={{ fontSize: "1.1rem" }}>
@@ -48,17 +49,58 @@ function About() {
                 and operating system.
               </p>
             </Col>
-            <Col className="d-flex align-items-center justify-content-center">
-              <img
-                src="/Selfie2.png"
-                className="rounded"
-                style={{ width: "auto", height: "350px" }}
-              />
-              <img
-                src="/Selfie3.png"
-                className="rounded"
-                style={{ width: "auto", height: "350px" }}
-              />
+            <Col >
+              <Container className="d-flex flex-column align-items-center justify-content-center">
+                <Row>
+                  <Col xs={6} style={{ padding: "0", width: "200px" }}>
+                    <img
+                      src="/Selfie2.png"
+                      className="rounded"
+                      style={{
+                        width: "100%",
+                        height: "300px",
+                      }}
+                    />
+                  </Col>
+                  <Col xs={6} style={{ padding: "0", width: "200px" }}>
+                    <img
+                      src="/Selfie3.png"
+                      className="rounded"
+                      style={{
+                        width: "100%",
+                        height: "300px",
+                      }}
+                    />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={6} style={{ padding: "0", width: "200px" }}>
+                    <img
+                      src="/Selfie4.png"
+                      className="rounded"
+                      style={{
+                        width: "100%",
+                        height: "300px",
+                      }}
+                    />
+                  </Col>
+                  <Col xs={6} style={{ padding: "0", width: "200px" }}>
+                    <video
+                      width="30%"
+                      controls
+                      className="rounded"
+                      style={{
+                        width: "100%",
+                        height: "300px",
+                        objectFit: "cover",
+                      }}
+                    >
+                      <source src="/Pride.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </Col>
+                </Row>
+              </Container>
             </Col>
           </Row>
         </Container>
