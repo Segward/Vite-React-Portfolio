@@ -20,7 +20,7 @@ function About() {
         <Container>
           <Row>
             <Col style={{ padding: "5px", textAlign: "left" }}>
-            <h1 style={{fontSize: "3rem"}}>About me</h1>
+            <h1 style={{fontSize: "3rem"}}>I'm Gustav Skyberg</h1>
               <p style={{ fontSize: "1.1rem" }}>
                 I am a computer engineering student at NTNU in Trondheim. I
                 develop software and have experience with programming languages
