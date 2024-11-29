@@ -16,7 +16,7 @@ function LegoAlarmClock() {
           paddingTop: "25vh",
         }}
       >
-        <h2>Lego Alarm Clock Teambased Collaberation</h2>
+        <h1 style={{fontSize: "3rem"}}>Lego Alarm Clock Teambased Collaberation</h1>
         <h3 className="mt-4">About the project</h3>
         <p style={{ fontSize: "1.1rem" }}>
           In the course teambased collaberation (IDATT1004) each group got

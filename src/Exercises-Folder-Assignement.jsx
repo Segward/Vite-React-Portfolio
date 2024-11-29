@@ -16,7 +16,7 @@ function ExercisesFolderAssignment() {
           paddingTop: "25vh",
         }}
       >
-        <h2>Exercises & Folder Assignment Programming 1</h2>
+        <h1 style={{fontSize: "3rem"}}>Exercises & Folder Assignment Programming 1</h1>
         <h3 className="mt-4">About the exercises</h3>
         <p style={{ fontSize: "1.1rem" }}>
           The programming exercises for IDAT1001 – Programmering 1 consist of 11

@@ -12,7 +12,7 @@ function App() {
       <Container style={{ width: "80%", paddingTop: "25vh" }}>
         <Row>
           <Col md={8} style={{ padding: "20px", textAlign: "left" }}>
-            <h1>Hi, welcome to my portfolio</h1>
+            <h1 style={{fontSize: "3rem"}}>Hi, welcome to my portfolio</h1>
             <p style={{ fontSize: "1.1rem" }}>
               In this portfolio you can read about me, my projects and some of
               my interests.

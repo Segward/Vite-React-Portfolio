@@ -19,8 +19,8 @@ function About() {
       >
         <Container>
           <Row>
-            <Col md={6} style={{ padding: "5px", textAlign: "left" }}>
-              <h2>I'm Gustav Skyberg</h2>
+            <Col style={{ padding: "5px", textAlign: "left" }}>
+            <h1 style={{fontSize: "3rem"}}>About me</h1>
               <p style={{ fontSize: "1.1rem" }}>
                 I am a computer engineering student at NTNU in Trondheim. I
                 develop software and have experience with programming languages
@@ -48,14 +48,16 @@ function About() {
                 and operating system.
               </p>
             </Col>
-            <Col
-              md={6}
-              className="d-flex justify-content-center align-items-center"
-            >
+            <Col className="d-flex align-items-center justify-content-center">
               <img
                 src="/Selfie2.png"
                 className="rounded"
-                style={{ width: "50%", maxWidth: "500px", height: "auto" }}
+                style={{ width: "auto", height: "350px" }}
+              />
+              <img
+                src="/Selfie3.png"
+                className="rounded"
+                style={{ width: "auto", height: "350px" }}
               />
             </Col>
           </Row>
